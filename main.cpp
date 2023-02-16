@@ -5,9 +5,10 @@
 #include <iostream>
 
 int main(int argc, char* argv[]){ 
+    std::cout << "Test" << std::endl;
     std::ifstream myfile; 
     myfile.open(argv[1]);
-    
+    std::cout << "Test" << std::endl;
     std::string input;
     std::vector<std::vector<int>> vector;
     while(std::getline(myfile, input)){ //labs, assignemnts, projects, final
@@ -19,11 +20,11 @@ int main(int argc, char* argv[]){
         }
         vector.push_back(tempVec);
     };
-    
+    std::cout << "Test" << std::endl;
     Gradebook myGrades(vector);
-    
+    std::cout << "Test" << std::endl;
     int vectorptr;
-
+    std::cout << "Test" << std::endl;
     
     
     
