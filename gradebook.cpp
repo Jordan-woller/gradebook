@@ -25,40 +25,40 @@ int Gradebook::Individual(std::string name){
         for (int j = 0 ; j < all_grades_names.size() ; j++){
             // if (strcmp(all_grades_names, name) == 0){
                 // grade = all_grades_names[i][j];
+                int i = 0;
             }
         }
-    }
+    
     return grade;
 }
 
 //
 
 //takes in category and returns all grades from category
-std::vector<int> Gradebook::Category(std::string category, std::vector<int> &vec){
+std::vector<int> Gradebook::Category(std::string category, std::vector<std::vector<int> > &vec){
     std::vector<int> categoryVec;
     if (category == "Labs"){
         categoryVec = vec[0];
-        return categoryVec;
     }
     else if (category == "Assignments"){
-        return vec[1];
+        categoryVec = vec[1];
     }
     else if (category == "Projects"){
-        return vec[2];
+        categoryVec = vec[2];
     }
 
     else if(category == "Exam"){
-        return vec[3];
+        categoryVec = vec[3];
     }
-
-
+    return categoryVec;
 }
+
 //returns grade in the course
 int Gradebook::Course(){
     return this->classTotal;
 }
 
-//gets total and sets classTotal to it
+// gets total and sets classTotal to it
 // void Gradebook::findTotal(){
 
 // }
