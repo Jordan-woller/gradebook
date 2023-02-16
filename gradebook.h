@@ -27,7 +27,7 @@ class Gradebook{
         std::vector<int> SplitVector(int *vectorptr);
         
         //takes in category and returns all grades from category
-        std::vector<int> Category(std::string category, std::vector<int> &vec);
+        std::vector<int> Category(std::string category, std::vector<std::vector<int> > &vec);
         
         //
         int Course();
