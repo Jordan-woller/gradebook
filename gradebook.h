@@ -4,37 +4,36 @@
 
 class Gradebook{
     private:
+        // 2D vector used to store all grades in the gradebook
         std::vector<std::vector<int>> all_grades;
-        std::vector<std::vector<std::string>> all_grades_names;
-        std::vector<int> labs;
-        std::vector<int> assignments;
-        std::vector<int> projects;
-        std::vector<int> exams;
-        unsigned int classTotal;
-        unsigned int num_categories;
         
     public:
         //default constructor
         Gradebook();
-        
+
         //constructor with premade categories
         Gradebook(std::vector<std::vector<int>> &grades);
-        
+
         //returns individual deliverable name and grade
         int Individual(std::string name);
-        
-        //
-        std::vector<int> SplitVector(int *vectorptr);
-        
-        //takes in category and returns all grades from category
-        std::vector<int> Category(std::string category, std::vector<std::vector<int> > &vec);
-        
-        //
+
+        //returns full grade in the course
         int Course();
         
-        //
-        // void Gradebook::findTotal();
+        // returns vector of a single category
+        std::vector<int> GetCategoryVec(std::string category);
+
+        // takes in category and returns all grades from category
+        // using in parameter *sum to save the total of that category
+        std::vector<int> Category(std::string category, int *sum);
+
         
-        //
-        void DropLowest(std::vector<int>temp);
+
+        //Takes in vector of labs and removes the lowest one from the vector
+        std::vector<int> DropLowest(std::vector<int>temp);
+        
+        // takes in a reference for the outfile
+        // goes through 2d vector and adds each grade to the outfile
+        void outGrades(std::ofstream& outfile);
 };
+
