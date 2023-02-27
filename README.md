@@ -34,7 +34,7 @@ This is our starting file before any code is run.
 <img width="1096" alt="Screen Shot 2023-02-27 at 3 04 29 PM" src="https://user-images.githubusercontent.com/90719981/221709348-785efcc9-d422-417a-87fc-6866d38014b7.png">
 In this screenshot we added a grade to the end of the Labs category. Input a 1 in the first menu to add a grade, then input the category that you would like to add the grade to. Then, input the value of the new grade, which in this case is 100.
 
-3
+<img width="1085" alt="Screen Shot 2023-02-27 at 3 04 53 PM" src="https://user-images.githubusercontent.com/90719981/221709454-ff0dd65a-d9f1-4f23-b188-9f53f9a41ba2.png">
 In this screenshot we changed a grade in the Assignments category. Input a 2 in the first menu to change a grade, then input the name of the category that you would like to change a grade in. Then, input the assignment number that you would like to change and the new grade when prompted, which in this case is 70. 
 
 4
