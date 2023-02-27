@@ -20,13 +20,13 @@ We found that this plan of action worked best and while we helped eachother in o
 ## Compilation Instructions
 compilation instructions
 
-# Runtime Instructions
+## Runtime Instructions
 Command Line Arguments
 runtime instructions
 
-# Video Link for Presentation
+## Video Link for Presentation
 https://youtu.be/hdTI5UHsdtA
 
 
 
-sample input/output screenshots with brief explanations of the images used
+## Sample Screenshots
