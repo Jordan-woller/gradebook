@@ -1,0 +1,231 @@
+Gradebook default constructor
+    initialize all grades vector
+
+
+Gradebook constructor
+    initialize all grades vector as main vec
+    
+    
+Individual(take in and return string name)
+    if length of name is 4 or 5 (since there are 12 labs) 
+        initialize category vec
+        initialize value as empty string
+        if size is 4
+            push back number of lab to value
+        else
+            push back double digit number of lab to value
+        initialize num as stoi value
+        call GetCategoryVec and store in category vec
+        grade is category vec at num - 1
+        return grade
+        
+    else if length of name is 11
+        initialize category vec
+        initialize value as empty string
+        push back number of assignment to value
+        initialize num as stoi value
+        call GetCategoryVec and store in category vec
+        grade is category vec at num - 1
+        return grade
+    
+    else if length of name is 8
+        initialize category vec
+        initialize value as empty string
+        push back number of project to value
+        initialize num as stoi value
+        call GetCategoryVec and store in category vec
+        grade is category vec at num - 1
+        return grade
+    
+    else
+        initialize category vec
+        call GetCategoryVec and store in category vec
+        grade is category vec at 0
+        return grade
+
+
+
+
+GetCategoryVec(take in category name and return associated vector)
+
+ask until a valid category name is entered
+
+    if user choice is labs
+        Use the first vector within the 2D vector all_grades
+   
+   
+        For Loop that goes through  vector
+            Convert each score from scores out of 100 to scores out of 20
+        
+        return the vector
+        
+    else if category is Assignments
+           Use the second vector within the 2D vector all_grades
+           
+        For Loop that goes through  vector
+            Convert each score from scores out of 100 to scores out of 50   
+           
+        return the vector
+        
+    else if category is Projects
+           Use the third vector within the 2D vector all_grades
+           
+           Convert first score from a score out of 100 to a score out of 150
+           Convert first score from a score out of 100 to a score out of 350
+        
+        return the vector
+           
+    else if category is Exam
+        Use the fourth vector within the 2D vector all_grades
+           
+        return the vector
+      
+      
+ 
+Category(takes in category string and sum integer pointer)
+    initialize category vec
+    
+    if category is Labs
+        call GetCategoryVec for Labs and store in category vec
+        initialize total as 0
+        call DropLowest function twice to drop two lowest labs
+        for 0 to category size
+            add category vec at index to total
+        set sum pointer = total
+        return category vec
+        
+    if category is Assignments
+        initialize total as 0
+        call GetCategoryVec for Assignments and store in category vec
+        for 0 to category size
+            add category vec at index to total
+        set sum pointer = total
+        return category vec
+
+    if category is Projects
+        initialize total as 0
+        call GetCategoryVec for Projects and store in category vec
+        for 0 to category size
+            add category vec at index to total
+        set sum pointer = total
+        return category vec
+    
+    if category is Exams
+        call GetCategoryVec for Projects and store in category vec
+        set sum pointer = grade of exam
+        return category vec
+   
+
+
+Course
+    initialize class total as 0 and amount
+    set a sum pointer equal to 
+    int *sum = &amount;
+    
+    call Category function with Labs and sum
+    add sum to class total
+    
+    call Category function with Assignments and sum
+    add sum to class total
+    
+    call Category function with Projects and sum
+    add sum to class total
+    
+    call Category function with Exam and sum
+    add sum to class total
+    
+    return classTotal
+
+
+
+Takes in vector of labs and removes the lowest one from the vector
+DropLowest function (take in and return vector)
+    intialize first as lowest
+    intialize index as 0
+    for loop that goes through vec
+       if lowest is less than current
+            set current to lowest
+
+    erase the lowest from vector
+    return the vector
+
+
+outGrades function (take in a reference for an outfile)
+goes through the classes 2d vector and copies each category into a temp vector
+loop through the temp vector and output all grades into the outfile
+
+
+
+main:
+
+create input file with name of CLA
+getline to get information out of file and into a 2d vector
+if there arent enough categories, fill with 0 instead
+
+while loop:
+    ask user if they want to additionally add or change grades, or if theyre done
+    if they want to add grades:
+        ask which category 
+        check if category is full 
+        ask what new grade is
+        replace old grade with new grade
+    else if they choose to change grades:
+        ask what category
+        ask user which to change
+        check if assignement is in category
+        ask for new grade
+        change grade 
+    else if user is done adding/changing
+        set while to false
+    else: error handling
+
+construct instance of gradebook using 2d vector as input
+
+close infile 
+open outfile with same name as infile
+
+while loop:
+    ask user what output they want:
+    1. individual grade based on name
+    2. category grade and all grades within 
+    3. course grades with more choices within
+    4. quit
+    
+    if user wants individual:
+        take in name of assignment
+        call member function with name to calculate grade
+        output using cout to user
+        
+    else if user wants category:
+        take in users choice of category 
+        check if valid category  
+        set an int to the max grade possible in category
+        call category member function to find total points earned so far
+        print out temp vector 
+        print out total earned and amount possible 
+    
+    else if user wants course:
+        ask user what output they want:
+        1. all grades within their categories and course overall
+        2. category totals and course overall 
+        3. only the course overall
+        
+        if user chooses all grades within their categories and course overall:
+            call member function to get vector of category 
+            cout name of category
+            loop through category and cout all info inside 
+            call member function for total in course 
+            cout total
+        
+        else if user wants category totals and course overall:
+            call category member function to find total of each category 
+            cout category total 
+            cout course total
+        
+        else if user wants only the course overall:
+            cout course member function 
+        
+        else:
+            error handling
+            
+close outfile
