@@ -20,7 +20,7 @@ We found that this plan of action worked best and while we helped eachother in o
 ## Compilation Instructions
 compilation instructions
 
-## Runtime Instructions
+# Runtime Instructions
 Command Line Arguments
 runtime instructions
 
