@@ -28,7 +28,7 @@ We found that this plan of action worked best and while we helped eachother in o
 https://youtu.be/hdTI5UHsdtA
 
 ## Sample Screenshots
-1
+<img width="468" alt="Screen Shot 2023-02-27 at 3 03 53 PM" src="https://user-images.githubusercontent.com/90719981/221709225-1a9f975b-29a5-42d3-b0bb-d9d6d5c7b760.png">
 This is our starting file before any code is run.
 
 2
