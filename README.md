@@ -31,7 +31,7 @@ https://youtu.be/hdTI5UHsdtA
 <img width="468" alt="Screen Shot 2023-02-27 at 3 03 53 PM" src="https://user-images.githubusercontent.com/90719981/221709225-1a9f975b-29a5-42d3-b0bb-d9d6d5c7b760.png">
 This is our starting file before any code is run.
 
-2
+<img width="1096" alt="Screen Shot 2023-02-27 at 3 04 29 PM" src="https://user-images.githubusercontent.com/90719981/221709348-785efcc9-d422-417a-87fc-6866d38014b7.png">
 In this screenshot we added a grade to the end of the Labs category. Input a 1 in the first menu to add a grade, then input the category that you would like to add the grade to. Then, input the value of the new grade, which in this case is 100.
 
 3
