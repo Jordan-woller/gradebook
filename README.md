@@ -18,9 +18,7 @@ We found that this plan of action worked best and while we helped eachother in o
 
 ## Compilation Instructions
 
-To compile this program you will need an IDE, such as CLion, that has a c++ compiler, such as GNU with g++.  
-You will then need to bring main.cpp, gradebook.cpp, gradebook.h, and any text files which would contain your grades into the same directory within your IDE of choice.  
-You will then have to type "g++ -std=c++11 main.cpp gradebook.cpp -o gradebook" into the terminal order to compile your code into an executable file called 'gradebook'.
+To compile this program you will need an IDE, such as CLion, that has a c++ compiler, such as GNU with g++. You will then need to bring main.cpp, gradebook.cpp, gradebook.h, and any text files which would contain your grades into the same directory within your IDE of choice. You will then have to type "g++ -std=c++11 main.cpp gradebook.cpp -o gradebook" into the terminal order to compile your code into an executable file called 'gradebook'.
 
 ## Runtime Instructions
 Command Line Arguments
