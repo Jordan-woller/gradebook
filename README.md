@@ -3,19 +3,6 @@
 ## Summary
 Our project utilizes an input file, along with user input, in order to create an output that would inform the user about their requested grades. Through this project the user can change any specific grade, and/or add a new grade to any category in the input file. Once changes to the input file are complete, the user can choose to return just a name of an assignment and its grade, or each grade in a chosen category along with its total. If the user chooses the course option, they have three choices: each grade in the category and the overall course grade, each overall category grade and then the course grade, or just the course grade. The user can choose as many of these options as they choose as the program will not close until they choose to quit. 
 
-
-Command Line Arguments
-
-function/method calls
-
-planning
-
-compilation instructions
-
-runtime instructions
-
-sample input/output screenshots with brief explanations of the images used
-
 ## Planning
 
 For our gradebook we knew we were in for a large program with plenty of chances for issues. Due to this, we decided that it would be best
@@ -31,5 +18,15 @@ Jordan: Putting everything together in the main file, making the code user frien
 We found that this plan of action worked best and while we helped eachother in our respective sections, we stuck to our plan.
 
 ## Compilation Instructions
+compilation instructions
 
 ## Runtime Instructions
+Command Line Arguments
+runtime instructions
+
+# Video Link for Presentation
+https://youtu.be/hdTI5UHsdtA
+
+
+
+sample input/output screenshots with brief explanations of the images used
