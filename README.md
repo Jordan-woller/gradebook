@@ -35,23 +35,30 @@ https://youtu.be/hdTI5UHsdtA
 <img width="468" alt="Screen Shot 2023-02-27 at 3 03 53 PM" src="https://user-images.githubusercontent.com/90719981/221709225-1a9f975b-29a5-42d3-b0bb-d9d6d5c7b760.png">
 This is our starting file before any code is run.
 
+
 <img width="1096" alt="Screen Shot 2023-02-27 at 3 04 29 PM" src="https://user-images.githubusercontent.com/90719981/221709348-785efcc9-d422-417a-87fc-6866d38014b7.png">
 In this screenshot we added a grade to the end of the Labs category. Input a 1 in the first menu to add a grade, then input the category that you would like to add the grade to. Then, input the value of the new grade, which in this case is 100.
+
 
 <img width="1085" alt="Screen Shot 2023-02-27 at 3 04 53 PM" src="https://user-images.githubusercontent.com/90719981/221709454-ff0dd65a-d9f1-4f23-b188-9f53f9a41ba2.png">
 In this screenshot we changed a grade in the Assignments category. Input a 2 in the first menu to change a grade, then input the name of the category that you would like to change a grade in. Then, input the assignment number that you would like to change and the new grade when prompted, which in this case is 70. 
 
+
 <img width="1094" alt="Screen Shot 2023-02-27 at 3 05 22 PM" src="https://user-images.githubusercontent.com/90719981/221708793-0dbedef5-09d7-40b0-b579-83704181ab50.png">
 In this screenshot, we asked the program to display an individual assignment and grade. We don’t want to manipulate the text file so we skip past the first menu, and input a 1 to choose Individual. Then, input the name of the assignment using the specified format, and it returns the assignment name and the amount of points granted for that assignment.
+
 
 <img width="1065" alt="Screen Shot 2023-02-27 at 3 05 58 PM" src="https://user-images.githubusercontent.com/90719981/221708814-15c3e960-bfa9-4608-9021-0f71dc63d936.png">
 In this screenshot, we asked the program to display a category of grades. Again, we don’t want to manipulate the text file so we skip past the first menu. Then, input 2 to choose Category, and enter the category using the specified format. It then returns a list of the amount of points granted for each assignment and the total number of points granted out of the total amount of points possible for that category.
 
+
 <img width="1073" alt="Screen Shot 2023-02-27 at 3 06 41 PM" src="https://user-images.githubusercontent.com/90719981/221708832-38bfc1f6-f28a-4dc3-bedb-6d564ae25328.png">
 In this screenshot, we are asking the program to display all grades within each category along with a total course grade. We skip past the first menu and input a 3 in the second menu to see Course options. We then choose 1 for all grades within their categories and overall, and it returns every grade in the text file in the form of the amount of points granted as well as the total out of the total amount of points possible.
 
+
 <img width="1104" alt="Screen Shot 2023-02-27 at 3 07 05 PM" src="https://user-images.githubusercontent.com/90719981/221708861-59b63669-6411-4ce3-a388-8fd917e0e4a2.png">
 In this screenshot, we ask the program to output category totals and course total. We skip the first menu and input a 3 in the second menu for Course options. We then input a 2 for category and course totals, and it returns a list of each category, the amount of points earned out of the total amount of points possible, and the total earned points out of total amount of points possible.
+
 
 <img width="1068" alt="Screen Shot 2023-02-27 at 3 07 58 PM" src="https://user-images.githubusercontent.com/90719981/221708879-8726fb4c-e843-40cd-874b-ef1eb492c39d.png">
 In this screenshot, we ask the program to just display the course total overall. We skip the first menu again, input a 3 for Course options, then input a 3 for course overall. The program then outputs the total amount of points earned out of the total possible points.
