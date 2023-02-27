@@ -27,8 +27,6 @@ We found that this plan of action worked best and while we helped eachother in o
 ## Video Link for Presentation
 https://youtu.be/hdTI5UHsdtA
 
-
-
 ## Sample Screenshots
 1
 This is our starting file before any code is run.
