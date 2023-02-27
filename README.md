@@ -1,10 +1,11 @@
 # Gradebook
 
-command line arguments
+## Summary
+Our project utilizes an input file, along with user input, in order to create an output that would inform the user about their requested grades. 
+
+Command Line Arguments
 
 function/method calls
-
-summary
 
 planning
 
