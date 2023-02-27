@@ -8,7 +8,7 @@ Our project utilizes an input file, along with user input, in order to create an
 For our gradebook we knew we were in for a large program with plenty of chances for issues. Due to this, we decided that it would be best
 if we all got together to plan and write out pseudocode before anything else. After we had reached a plan we were comfortable with, it was time
 start implementing. We thought it would be best to code in CS50, that way we would all be able to be in the file and making changes at the same time. 
-Using this, we were all able to meet up and code together without being in eachothers way and not sharing our laptop when explaining an issue we were having. Our next issue was breaking up the code so everyone had an even portion of work. After plenty of deliberation, our best plan was as follows.
+Using this, we were all able to meet up and code together without being in eachothers way and not sharing our laptop when explaining an issue we were having. Our next issue was breaking up the code so everyone had an even portion of work. After plenty of deliberation, our best plan was as follows:
 
 Addie: Finding the individual grade of an assignment. 
 Cassidy: Finding the overall grade of a category of assignments. 
@@ -17,7 +17,10 @@ Jordan: Putting everything together in the main file, making the code user frien
 We found that this plan of action worked best and while we helped eachother in our respective sections, we stuck to our plan.
 
 ## Compilation Instructions
-compilation instructions
+
+To compile this program you will need an IDE, such as CLion, that has a c++ compiler, such as GNU with g++.  
+You will then need to bring main.cpp, gradebook.cpp, gradebook.h, and any text files which would contain your grades into the same directory within your IDE of choice.  
+You will then have to type "g++ -std=c++11 main.cpp gradebook.cpp -o gradebook" into the terminal order to compile your code into an executable file called 'gradebook'.
 
 ## Runtime Instructions
 Command Line Arguments
