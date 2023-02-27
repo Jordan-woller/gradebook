@@ -10,28 +10,25 @@ if we all got together to plan and write out pseudocode before anything else. Af
 start implementing. We thought it would be best to code in CS50, that way we would all be able to be in the file and making changes at the same time. 
 Using this, we were all able to meet up and code together without being in eachothers way and not sharing our laptop when explaining an issue we were having. Our next issue was breaking up the code so everyone had an even portion of work. After plenty of deliberation, our best plan was as follows:
 
-Addie: Finding the individual grade of an assignment.  
-Cassidy: Finding the overall grade of a category of assignments.  
-Chace: Finding the overall course grade, dropping the lowest lab, creating an outfile.  
-Jordan: Putting everything together in the main file, making the code user friendly, and error handling.
-
+Addie: Finding the individual grade of an assignment. 
+Cassidy: Finding the overall grade of a category of assignments. 
+Chace: Finding the overall course grade, dropping the lowest lab, creating an outfile. 
+Jordan: Putting everything together in the main file, making the code user friendly, and error handling. 
 We found that this plan of action worked best and while we helped eachother in our respective sections, we stuck to our plan.
 
 ## Compilation Instructions
 
 To compile this program you will need an IDE, such as CLion, that has a c++ compiler, such as GNU with g++.  
-
 You will then need to bring main.cpp, gradebook.cpp, gradebook.h, and any text files which would contain your grades into the same directory within your IDE of choice.  
+You will then have to type "g++ -std=c++11 main.cpp gradebook.cpp -o gradebook" into the terminal order to compile your code into an executable file called 'gradebook'.
 
-You will then have to type "g++ main.cpp gradebook.cpp -o prog" into the terminal order to compile your code into an executable file called prog.
-
-# Runtime Instructions
+## Runtime Instructions
 Command Line Arguments
 runtime instructions
 
-# Video Link for Presentation
+## Video Link for Presentation
 https://youtu.be/hdTI5UHsdtA
 
 
 
-sample input/output screenshots with brief explanations of the images used
+## Sample Screenshots
